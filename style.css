@@ -1,0 +1,43 @@
+
+a, a:hover{
+  text-decoration: none;
+}
+.btn{
+  font-size: 2em;
+}
+#alter{
+  color: black;
+  font-weight: bold;
+}
+#arrow{
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+#searchBtn {
+  margin-top: 1em;
+}
+#randomBtn{
+  margin-top: 1em;
+  margin-bottom: 1.5em;
+}
+.card:hover{
+  background-color: rgba(37, 114, 119, 0.3);
+}
+footer {
+  padding-top: 1em;
+  font-size: 0.95em;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+@media only screen and (max-width: 750px) {
+  .form-group, .btn-row{
+    margin: auto 7px auto 7px;
+  }
+  footer{
+    background-color: black;
+  }
+  #result{
+    margin: auto 3.5px auto 3.5px;
+  }
+}

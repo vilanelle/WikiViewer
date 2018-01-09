@@ -1,0 +1,63 @@
+<html>
+
+<head>
+  <title>WikiViewer</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:thin|Amatic+SC|Fredericka+the+Great" rel="stylesheet">
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="row">
+    <h1 class="col-md-4 offset-md-4 text-center">Wikipedia Viewer</h1>
+  </div>
+
+  <!-- search wikipedia -->
+  <div class="row">
+    <div class="col-md-4 offset-md-4 text-center">
+      <form>
+        <div class="form-group">
+          <input id="searchTerm" type="text" class="form-control" placeholder="Search Wiki...">
+          <button id="searchBtn" class="btn btn-default  btn-block" type="submit">Search Wikipedia</button>
+        </div>
+    </div>
+  </div>
+  </form>
+
+  <div class="row">
+    <div id="alter" class="col-md-4 offset-md-4 text-center">
+      <h3>OR</h3>
+    </div>
+  </div>
+
+  <div class="row ">
+    <div id="arrow" class="img-fluid col-md-4 offset-md-4 text-center">
+      <img src="assets/arrow.png"></div>
+  </div>
+
+  <!-- random article   -->
+  <div class='row'>
+    <div class="col-md-4 offset-md-4 text-center btn-row">
+      <button id="randomBtn" class="btn btn-default  btn-block" type="button">Get a random article</button>
+    </div>
+  </div>
+
+  <div class="row">
+    <div id="result" class="col-lg-6  offset-lg-3 text-center"></div>
+  </div>
+
+
+  <footer class="footer text-muted text-center">
+    <div>Icons made by <a href="http://www.flaticon.com/authors/eleonor-wang" title="Eleonor Wang">Eleonor Wang</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"
+        title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+  </footer>
+
+
+</body>
+
+</html>
